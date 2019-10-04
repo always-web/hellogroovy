@@ -18,4 +18,6 @@ println(name.class)
 x_1 = 'Test'
 println(x_1.class)
 
+println(UUID.randomUUID().toString().replaceAll("-", "").substring(0, 10))
+
 
