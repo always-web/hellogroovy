@@ -31,3 +31,4 @@ println(str.reverse())
 println(str.capitalize())
 
 //判断字符串是否数字
+println(str.isNumber())

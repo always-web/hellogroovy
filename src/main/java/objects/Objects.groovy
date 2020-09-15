@@ -1,5 +1,7 @@
 package objects
 
+import objects.Person
+
 wu
 //为类动态添加一个属性
 Person.metaClass.sex = 'male'

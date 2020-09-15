@@ -2,6 +2,7 @@ package file
 
 import objects.Person
 
+
 String path = '/home/hwddhome/mycode/groovy/hellogroovy/hellogroovy.iml'
 def file = new File(path)
 //file.eachLine { line -> println line }

@@ -24,7 +24,6 @@ def getNetworkData(String url) {
     connection.setRequestMethod('GET')
     connection.connect()
     def response = connection.connect().text
-
     //将json转换为实体对象
     def jsonSluper = new JsonSlurper()
     return jsonSluper.parseText(response)
